@@ -1,6 +1,7 @@
 # terraform-s3-backend
 
-Forked and simplified from [this config](https://github.com/DNXLabs/terraform-aws-backend).
+Forked and simplified from [this config](https://github.com/DNXLabs/terraform-aws-backend). 
+Also see [this related blog post](https://medium.com/dnx-labs/terraform-remote-states-in-s3-d74edd24a2c4).
 
 **To deploy this you should be using credentials for the Calliper Config AWS account.**
 
