@@ -9,6 +9,6 @@ output "dynamo_lock_table" {
 output "iam_roles" {
   value = concat(
     aws_iam_role.backend-all.*.arn,
-    aws_iam_role.backend-restricted.*.arn,
+    # aws_iam_role.backend-restricted.*.arn,
   )
 }

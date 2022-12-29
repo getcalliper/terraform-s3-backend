@@ -21,7 +21,8 @@ variable "assume_policy" {
   description = "A map that allows you to specify additional AWS principles that will be added to the backend roles assume role policy"
 
   default = {
-    dev  = "arn:aws:iam::053474479217:root"
-    prod = "arn:aws:iam::959101439898:root"
+    # dev  = "arn:aws:iam::053474479217:group/Developers"
+    # prod = "arn:aws:iam::959101439898:user/calliper.lawrence,arn:aws:iam::959101439898:user/calliper.tony"
+    all = "arn:aws:iam::053474479217:user/calliper.lawrence,arn:aws:iam::053474479217:user/calliper.tony,arn:aws:iam::959101439898:user/calliper.lawrence,arn:aws:iam::959101439898:user/calliper.tony"
   }
 }
